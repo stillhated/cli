@@ -1,5 +1,30 @@
 # Changelog
 
+## [9.0.0](https://github.com/npm/cli/compare/libnpmsearch-v9.0.0-pre.0...libnpmsearch-v9.0.0) (2024-12-16)
+### Features
+* [`a7bfc6d`](https://github.com/npm/cli/commit/a7bfc6df76882996ebb834dbca785fdf33b8c50d) [#7972](https://github.com/npm/cli/pull/7972) trigger release process (#7972) (@wraithgar)
+### Chores
+* [`a07f4e0`](https://github.com/npm/cli/commit/a07f4e0d921f640be6aa87736debd550ec478f89) [#7976](https://github.com/npm/cli/pull/7976) `@npmcli/template-oss@4.23.6` (@wraithgar)
+
+## [9.0.0-pre.0](https://github.com/npm/cli/compare/libnpmsearch-v8.0.0...libnpmsearch-v9.0.0-pre.0) (2024-11-26)
+### ⚠️ BREAKING CHANGES
+* libnpmsearch now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`2f2ee15`](https://github.com/npm/cli/commit/2f2ee1541db6c9c24582ce8a24dfb4702d22b759) [#7831](https://github.com/npm/cli/pull/7831) for libnpmsearch sets node engine range to `^20.17.0 || >=22.9.0` (@reggi)
+### Chores
+* [`6edfe2f`](https://github.com/npm/cli/commit/6edfe2f3a45169b6d194ccd8d366bb8d0e09b4a5) [#7937](https://github.com/npm/cli/pull/7937) `@npmcli/template-oss@4.23.5` (@wraithgar)
+
+## [8.0.0](https://github.com/npm/cli/compare/libnpmsearch-v7.0.6...libnpmsearch-v8.0.0) (2024-10-03)
+### ⚠️ BREAKING CHANGES
+* `libnpmsearch` now supports node `^18.17.0 || >=20.5.0`
+### Bug Fixes
+* [`ecfa213`](https://github.com/npm/cli/commit/ecfa21361888012d7608645271cdaa2fe37ed270) [#7803](https://github.com/npm/cli/pull/7803) align libnpmsearch to npm 10 node engine range (@reggi)
+### Dependencies
+* [`d13a20b`](https://github.com/npm/cli/commit/d13a20bebef1b9932f86c44741ea6d214ad6842b) [#7803](https://github.com/npm/cli/pull/7803) update `npm-registry-fetch@18.0.1`
+### Chores
+* [`2072705`](https://github.com/npm/cli/commit/2072705aa80d009dc077639adc305692f4a6c0b9) [#7803](https://github.com/npm/cli/pull/7803) update `@npmcli/eslint-config@5.0.1` (@reggi)
+* [`8035725`](https://github.com/npm/cli/commit/80357253ecd8483463cd66c783c4464c330d72df) [#7756](https://github.com/npm/cli/pull/7756) `@npmcli/template-oss@4.23.3` (@wraithgar)
+
 ## [7.0.6](https://github.com/npm/cli/compare/libnpmsearch-v7.0.5...libnpmsearch-v7.0.6) (2024-05-29)
 
 ### Bug Fixes

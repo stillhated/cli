@@ -1,5 +1,39 @@
 # Changelog
 
+## [11.0.0](https://github.com/npm/cli/compare/libnpmpublish-v11.0.0-pre.0...libnpmpublish-v11.0.0) (2024-12-16)
+### Features
+* [`a7bfc6d`](https://github.com/npm/cli/commit/a7bfc6df76882996ebb834dbca785fdf33b8c50d) [#7972](https://github.com/npm/cli/pull/7972) trigger release process (#7972) (@wraithgar)
+### Chores
+* [`a07f4e0`](https://github.com/npm/cli/commit/a07f4e0d921f640be6aa87736debd550ec478f89) [#7976](https://github.com/npm/cli/pull/7976) `@npmcli/template-oss@4.23.6` (@wraithgar)
+
+## [11.0.0-pre.0](https://github.com/npm/cli/compare/libnpmpublish-v10.0.0...libnpmpublish-v11.0.0-pre.0) (2024-11-26)
+### ⚠️ BREAKING CHANGES
+* Attestations made by this package will no longer validate in npm versions prior to 10.6.0
+* libnpmpublish now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`f75da94`](https://github.com/npm/cli/commit/f75da94f3bed6c0b637044e88098ec354cf302b0) [#7833](https://github.com/npm/cli/pull/7833) update libnpmpublish tests for sigstore 3.0.0 (@bdehamer)
+* [`a2f8af0`](https://github.com/npm/cli/commit/a2f8af0437a7d5a1219c3b01f0120ca45fae607d) [#7831](https://github.com/npm/cli/pull/7831) for libnpmpublish sets node engine range to `^20.17.0 || >=22.9.0` (@reggi)
+### Dependencies
+* [`75a3f12`](https://github.com/npm/cli/commit/75a3f1228865f426d8790be27f1258e501f2c450) [#7859](https://github.com/npm/cli/pull/7859) remove unused deps (#7859)
+* [`7ee15bb`](https://github.com/npm/cli/commit/7ee15bbdc1da0ed85297f47952b66089f29ed3fd) [#7833](https://github.com/npm/cli/pull/7833) bump sigstore from 2.x to 3.0.0 (@bdehamer)
+### Chores
+* [`6edfe2f`](https://github.com/npm/cli/commit/6edfe2f3a45169b6d194ccd8d366bb8d0e09b4a5) [#7937](https://github.com/npm/cli/pull/7937) `@npmcli/template-oss@4.23.5` (@wraithgar)
+
+## [10.0.0](https://github.com/npm/cli/compare/libnpmpublish-v9.0.9...libnpmpublish-v10.0.0) (2024-10-03)
+### ⚠️ BREAKING CHANGES
+* `libnpmpublish` now supports node `^18.17.0 || >=20.5.0`
+### Bug Fixes
+* [`96f4e4e`](https://github.com/npm/cli/commit/96f4e4e134364ad69b7abb1fa164aee3c0f602ee) [#7803](https://github.com/npm/cli/pull/7803) align libnpmpublish to npm 10 node engine range (@reggi)
+### Dependencies
+* [`8206c4f`](https://github.com/npm/cli/commit/8206c4f675937e855b60164946c086eb64d7ecb6) [#7803](https://github.com/npm/cli/pull/7803) update `ssri@12.0.0`
+* [`f6909a0`](https://github.com/npm/cli/commit/f6909a022c9373c85d980c96a30f47a3a65aa4a9) [#7803](https://github.com/npm/cli/pull/7803) update `proc-log@5.0.0`
+* [`d13a20b`](https://github.com/npm/cli/commit/d13a20bebef1b9932f86c44741ea6d214ad6842b) [#7803](https://github.com/npm/cli/pull/7803) update `npm-registry-fetch@18.0.1`
+* [`50a7bc8`](https://github.com/npm/cli/commit/50a7bc8737bb4e0a8fbc5f00b8f580512153a5bc) [#7803](https://github.com/npm/cli/pull/7803) update `npm-package-arg@12.0.0`
+* [`8d4060a`](https://github.com/npm/cli/commit/8d4060a661db50dc4d4a2f30cc57346f1d242599) [#7803](https://github.com/npm/cli/pull/7803) update `normalize-package-data@7.0.0`
+### Chores
+* [`2072705`](https://github.com/npm/cli/commit/2072705aa80d009dc077639adc305692f4a6c0b9) [#7803](https://github.com/npm/cli/pull/7803) update `@npmcli/eslint-config@5.0.1` (@reggi)
+* [`8035725`](https://github.com/npm/cli/commit/80357253ecd8483463cd66c783c4464c330d72df) [#7756](https://github.com/npm/cli/pull/7756) `@npmcli/template-oss@4.23.3` (@wraithgar)
+
 ## [9.0.9](https://github.com/npm/cli/compare/libnpmpublish-v9.0.8...libnpmpublish-v9.0.9) (2024-05-29)
 
 ### Bug Fixes
