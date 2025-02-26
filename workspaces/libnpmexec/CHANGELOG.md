@@ -1,5 +1,59 @@
 # Changelog
 
+## [10.0.0](https://github.com/npm/cli/compare/libnpmexec-v10.0.0-pre.1...libnpmexec-v10.0.0) (2024-12-16)
+### Features
+* [`a7bfc6d`](https://github.com/npm/cli/commit/a7bfc6df76882996ebb834dbca785fdf33b8c50d) [#7972](https://github.com/npm/cli/pull/7972) trigger release process (#7972) (@wraithgar)
+### Chores
+* [`a07f4e0`](https://github.com/npm/cli/commit/a07f4e0d921f640be6aa87736debd550ec478f89) [#7976](https://github.com/npm/cli/pull/7976) `@npmcli/template-oss@4.23.6` (@wraithgar)
+
+
+### Dependencies
+
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.0): `@npmcli/arborist@9.0.0`
+
+## [10.0.0-pre.1](https://github.com/npm/cli/compare/libnpmexec-v10.0.0-pre.0...libnpmexec-v10.0.0-pre.1) (2024-12-06)
+### ⚠️ BREAKING CHANGES
+* `bun.lockb` files are now included in the strict ignore list during packing
+### Dependencies
+* [`c0bcc2a`](https://github.com/npm/cli/commit/c0bcc2a860fec5c86234dec44f5474364c25aefc) [#7955](https://github.com/npm/cli/pull/7955) `walk-up-path@4.0.0`
+* [`ca84b22`](https://github.com/npm/cli/commit/ca84b22a18806495c37ef6ee2aecd42a1c7bb7f6) [#7945](https://github.com/npm/cli/pull/7945) `pacote@21.0.0`
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.0-pre.1): `@npmcli/arborist@9.0.0-pre.1`
+
+## [10.0.0-pre.0](https://github.com/npm/cli/compare/libnpmexec-v9.0.0...libnpmexec-v10.0.0-pre.0) (2024-11-26)
+### ⚠️ BREAKING CHANGES
+* libnpmexec now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`7f541e8`](https://github.com/npm/cli/commit/7f541e82a0b2908cc0cfef9a36b714eeab40c029) [#7815](https://github.com/npm/cli/pull/7815) make pack and exec work with git hash refs (#7815) (@milaninfy)
+* [`2902d4c`](https://github.com/npm/cli/commit/2902d4cfd363eac1dd011e90bd9a1b156852155c) [#7831](https://github.com/npm/cli/pull/7831) for libnpmexec sets node engine range to `^20.17.0 || >=22.9.0` (@reggi)
+### Dependencies
+* [`7dbef6f`](https://github.com/npm/cli/commit/7dbef6f3a3ead089b1b8b9fe6b2fa25e24309000) [#7850](https://github.com/npm/cli/pull/7850) `pacote@20.0.0`
+### Chores
+* [`6edfe2f`](https://github.com/npm/cli/commit/6edfe2f3a45169b6d194ccd8d366bb8d0e09b4a5) [#7937](https://github.com/npm/cli/pull/7937) `@npmcli/template-oss@4.23.5` (@wraithgar)
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.0.0-pre.0): `@npmcli/arborist@9.0.0-pre.0`
+
+## [9.0.0](https://github.com/npm/cli/compare/libnpmexec-v8.1.4...libnpmexec-v9.0.0) (2024-10-03)
+### ⚠️ BREAKING CHANGES
+* `libnpmexec` now supports node `^18.17.0 || >=20.5.0`
+### Bug Fixes
+* [`a2c8016`](https://github.com/npm/cli/commit/a2c80166e02a79402fb7bbb629f8ecc14ff8b546) [#7803](https://github.com/npm/cli/pull/7803) align libnpmexec to npm 10 node engine range (@reggi)
+### Dependencies
+* [`99ccae3`](https://github.com/npm/cli/commit/99ccae3ded6f7013b26ed268a208c24473cdeb8f) [#7803](https://github.com/npm/cli/pull/7803) update `bin-links@5.0.0`
+* [`9cd6603`](https://github.com/npm/cli/commit/9cd66031ebd2e9a0d6fdee3a7b4d7779694306ff) [#7803](https://github.com/npm/cli/pull/7803) update `read-package-json-fast@4.0.0`
+* [`8b7dbc8`](https://github.com/npm/cli/commit/8b7dbc8234914352b2649f56c6a11765f1904e30) [#7803](https://github.com/npm/cli/pull/7803) update `read@4.0.0`
+* [`f6909a0`](https://github.com/npm/cli/commit/f6909a022c9373c85d980c96a30f47a3a65aa4a9) [#7803](https://github.com/npm/cli/pull/7803) update `proc-log@5.0.0`
+* [`e7ab206`](https://github.com/npm/cli/commit/e7ab206370e5fc62fefe6916e5dcc40b3e577d22) [#7803](https://github.com/npm/cli/pull/7803) update `pacote@19.0.0`
+* [`50a7bc8`](https://github.com/npm/cli/commit/50a7bc8737bb4e0a8fbc5f00b8f580512153a5bc) [#7803](https://github.com/npm/cli/pull/7803) update `npm-package-arg@12.0.0`
+* [`538a4cc`](https://github.com/npm/cli/commit/538a4cc1dd731a3643ab4477fe545db39997bcdf) [#7803](https://github.com/npm/cli/pull/7803) update `@npmcli/run-script@9.0.1`
+### Chores
+* [`2072705`](https://github.com/npm/cli/commit/2072705aa80d009dc077639adc305692f4a6c0b9) [#7803](https://github.com/npm/cli/pull/7803) update `@npmcli/eslint-config@5.0.1` (@reggi)
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v8.0.0): `@npmcli/arborist@8.0.0`
+
+## [8.1.4](https://github.com/npm/cli/compare/libnpmexec-v8.1.3...libnpmexec-v8.1.4) (2024-08-28)
+### Bug Fixes
+* [`9214be9`](https://github.com/npm/cli/commit/9214be9ed8779493e00d193e36a930918a30be64) [#7640](https://github.com/npm/cli/pull/7640) gracefully handle nonexistent global installation directory (#7640) (@milaninfy)
+### Chores
+* [`8035725`](https://github.com/npm/cli/commit/80357253ecd8483463cd66c783c4464c330d72df) [#7756](https://github.com/npm/cli/pull/7756) `@npmcli/template-oss@4.23.3` (@wraithgar)
+
 ## [8.1.3](https://github.com/npm/cli/compare/libnpmexec-v8.1.2...libnpmexec-v8.1.3) (2024-07-09)
 
 ### Bug Fixes

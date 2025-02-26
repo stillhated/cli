@@ -1,5 +1,33 @@
 # Changelog
 
+## [10.0.0](https://github.com/npm/cli/compare/libnpmaccess-v10.0.0-pre.0...libnpmaccess-v10.0.0) (2024-12-16)
+### Features
+* [`a7bfc6d`](https://github.com/npm/cli/commit/a7bfc6df76882996ebb834dbca785fdf33b8c50d) [#7972](https://github.com/npm/cli/pull/7972) trigger release process (#7972) (@wraithgar)
+### Chores
+* [`a07f4e0`](https://github.com/npm/cli/commit/a07f4e0d921f640be6aa87736debd550ec478f89) [#7976](https://github.com/npm/cli/pull/7976) `@npmcli/template-oss@4.23.6` (@wraithgar)
+
+## [10.0.0-pre.0](https://github.com/npm/cli/compare/libnpmaccess-v9.0.0...libnpmaccess-v10.0.0-pre.0) (2024-11-26)
+### ⚠️ BREAKING CHANGES
+* libnpmaccess now supports node `^20.17.0 || >=22.9.0`
+### Bug Fixes
+* [`687cfaf`](https://github.com/npm/cli/commit/687cfafa91af13048037c5f544c15c00cf52921e) [#7831](https://github.com/npm/cli/pull/7831) for libnpmaccess sets node engine range to `^20.17.0 || >=22.9.0` (@reggi)
+### Dependencies
+* [`75a3f12`](https://github.com/npm/cli/commit/75a3f1228865f426d8790be27f1258e501f2c450) [#7859](https://github.com/npm/cli/pull/7859) remove unused deps (#7859)
+### Chores
+* [`6edfe2f`](https://github.com/npm/cli/commit/6edfe2f3a45169b6d194ccd8d366bb8d0e09b4a5) [#7937](https://github.com/npm/cli/pull/7937) `@npmcli/template-oss@4.23.5` (@wraithgar)
+
+## [9.0.0](https://github.com/npm/cli/compare/libnpmaccess-v8.0.6...libnpmaccess-v9.0.0) (2024-10-03)
+### ⚠️ BREAKING CHANGES
+* `libnpmaccess` now supports node `^18.17.0 || >=20.5.0`
+### Bug Fixes
+* [`73068d6`](https://github.com/npm/cli/commit/73068d60ded17de3ff6a3d38ff2b83b136316ffc) [#7803](https://github.com/npm/cli/pull/7803) align libnpmaccess to npm 10 node engine range (@reggi)
+### Dependencies
+* [`d13a20b`](https://github.com/npm/cli/commit/d13a20bebef1b9932f86c44741ea6d214ad6842b) [#7803](https://github.com/npm/cli/pull/7803) update `npm-registry-fetch@18.0.1`
+* [`50a7bc8`](https://github.com/npm/cli/commit/50a7bc8737bb4e0a8fbc5f00b8f580512153a5bc) [#7803](https://github.com/npm/cli/pull/7803) update `npm-package-arg@12.0.0`
+### Chores
+* [`2072705`](https://github.com/npm/cli/commit/2072705aa80d009dc077639adc305692f4a6c0b9) [#7803](https://github.com/npm/cli/pull/7803) update `@npmcli/eslint-config@5.0.1` (@reggi)
+* [`8035725`](https://github.com/npm/cli/commit/80357253ecd8483463cd66c783c4464c330d72df) [#7756](https://github.com/npm/cli/pull/7756) `@npmcli/template-oss@4.23.3` (@wraithgar)
+
 ## [8.0.6](https://github.com/npm/cli/compare/libnpmaccess-v8.0.5...libnpmaccess-v8.0.6) (2024-05-15)
 
 ### Dependencies
